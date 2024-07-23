@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %}CRUD Operations Instruction{% endblock title %}
+{% block body %}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+    }
+    .instruction-section {
+        margin-bottom: 30px;
+    }
+    .instruction-section h2 {
+        margin-bottom: 15px;
+        color: #555;
+    }
+    .instruction-step {
+        margin-bottom: 15px;
+        color: #666;
+    }
+    ol {
+        padding-left: 20px;
+    }
+</style>
+
+<div class="container">
+    <h1>CRUD Operations Instruction</h1>
+
+    <div class="instruction-section">
+        <h2>Create</h2>
+        <div class="instruction-step">
+            <strong>Steps to Create:</strong>
+            <ol>
+                <li>Navigate to the "Create" section of the application.</li>
+                <li>Fill out the necessary fields with the required information.</li>
+                <li>Click the "Submit" or "Save" button to create the new data entry.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="instruction-section">
+        <h2>Read</h2>
+        <div class="instruction-step">
+            <strong>Steps to Read:</strong>
+            <ol>
+                <li>Navigate to the "Read" or "View" section of the application.</li>
+                <li>Search or browse for the data entry you want to view.</li>
+                <li>Click on the entry to view its details.</li>
+                <li>You should see all the information associated with the selected data entry.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="instruction-section">
+        <h2>Update</h2>
+        <div class="instruction-step">
+            <strong>Steps to Update:</strong>
+            <ol>
+                <li>Navigate to the "Update" or "Edit" section of the application.</li>
+                <li>Search for the data entry you want to update.</li>
+                <li>Click on the entry to open the editing interface.</li>
+                <li>Modify the necessary fields with the updated information.</li>
+                <li>Click the "Update" or "Save Changes" button to apply the changes.</li>
+                <li>You should receive a confirmation message indicating that the data has been successfully updated.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="instruction-section">
+        <h2>Delete</h2>
+        <div class="instruction-step">
+            <strong>Steps to Delete:</strong>
+            <ol>
+                <li>Navigate to the "Delete" or "Remove" section of the application.</li>
+                <li>Search for the data entry you want to delete.</li>
+                <li>Select the entry by checking the checkbox next to it.</li>
+                <li>Click the "Delete" or "Remove" button to initiate the deletion process.</li>
+                <li>Confirm the deletion when prompted.</li>
+                <li>You should receive a confirmation message indicating that the data has been successfully deleted.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
